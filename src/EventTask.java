@@ -9,5 +9,5 @@ public class EventTask {
     public void toggleCompleted() {
         isCompleted = !isCompleted;
     }
-    
+
 }
