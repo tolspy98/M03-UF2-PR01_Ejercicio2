@@ -9,5 +9,7 @@ public class EventTask {
     public void toggleCompleted() {
         isCompleted = !isCompleted;
     }
-
+    public String toString() {
+        return text + " [" + (isCompleted ? "Completada" : "Pendiente") + "]";
+    }
 }
